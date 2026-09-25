@@ -1,0 +1,342 @@
+<!doctype html><html lang="en"><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style>
+<title>Woodhouse 2.0 About</title>
+<style>
+@font-face{font-family:"IvyPresto Display";src:url(../fonts/ivypresto-light.woff) format("woff");font-weight:300;font-style:normal;font-display:swap}
+@font-face{font-family:"IvyPresto Display";src:url(../fonts/ivypresto-light-italic.woff) format("woff");font-weight:300;font-style:italic;font-display:swap}
+@font-face{font-family:"IvyPresto Display";src:url(../fonts/ivypresto-regular.woff) format("woff");font-weight:400 500;font-style:normal;font-display:swap}
+@font-face{font-family:"IvyPresto Display";src:url(../fonts/ivypresto-italic.woff) format("woff");font-weight:400 500;font-style:italic;font-display:swap}
+@font-face{font-family:"Thesignature";src:url(../fonts/thesignature.woff) format("woff");font-display:swap}
+@font-face{font-family:"Fino Sans";src:url(../fonts/fino-sans.woff) format("woff");font-display:swap}
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=DM+Mono:wght@300;400&family=Inter:wght@300;400;500&family=Mrs+Saint+Delafield&family=Tenor+Sans&display=swap">
+<style>
+:root{
+  --font-heading:"IvyPresto Display","Cormorant Garamond",Georgia,serif;
+  --font-script:"Thesignature","Mrs Saint Delafield","Snell Roundhand",cursive;
+  --font-logo:"Fino Sans","Tenor Sans","Helvetica Neue",Arial,sans-serif;
+  --font-body:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --font-mono:"DM Mono",ui-monospace,Menlo,monospace;
+  --grain:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .55 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+img{max-width:100%;display:block}
+figure{margin:0}
+[hidden]{display:none!important}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:1.5px solid currentColor;outline-offset:4px}
+h1,h2,h3,h4{font-family:var(--font-heading);font-weight:300;line-height:.98;margin:0;text-wrap:balance;letter-spacing:-.01em}
+p{margin:0}
+.wh{container:page/inline-size;max-width:1600px;margin-inline:auto;overflow:clip;position:relative}
+body.as-mobile .wh{max-width:390px;margin-block:72px 48px;border-radius:34px;box-shadow:0 0 0 10px #151514,0 40px 80px -30px rgba(0,0,0,.45)}
+.mono{font:400 11px/1.5 var(--font-mono);letter-spacing:.2em;text-transform:uppercase}
+.script{font-family:var(--font-script);font-weight:400;letter-spacing:0;line-height:1;text-transform:none}
+.logo{font-family:var(--font-logo);letter-spacing:.38em;text-transform:uppercase}
+.tlink{display:inline-flex;gap:.8em;align-items:center;font:400 11px/1 var(--font-mono);letter-spacing:.22em;text-transform:uppercase;padding-bottom:.7em;border-bottom:1px solid currentColor;transition:gap .3s}
+.tlink:hover{gap:1.4em}
+.ph{position:relative;overflow:hidden;background-color:#8a847b;background-size:cover;background-position:center;background-repeat:no-repeat}
+.ph.bw{filter:grayscale(1)}
+.ph::before{content:"";position:absolute;inset:0;background:var(--grain);opacity:.28;mix-blend-mode:overlay;pointer-events:none}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.review{position:fixed;z-index:50;top:calc(12px + env(safe-area-inset-top,0px));right:12px;display:flex;align-items:center;gap:4px;padding:4px 4px 4px 14px;background:rgba(20,20,19,.88);color:#f4f4f3;border-radius:999px;font:400 10px/1 var(--font-mono);letter-spacing:.16em;text-transform:uppercase;backdrop-filter:blur(8px)}
+.review span{padding-right:8px;opacity:.7}
+.review button{all:unset;cursor:pointer;padding:9px 12px;border-radius:999px}
+.review button[aria-pressed="true"]{background:#f4f4f3;color:#141413}
+.review button:focus-visible{outline:1px solid #f4f4f3}
+@media (max-width:600px){.review span{display:none}.review{right:8px}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
+<style>
+/* ── Woodhouse 2.0 · shared (from pages/home.html) ── */
+.G{--white:#ffffff;--esp:#0b0b0a;--paper:#f4f4f3;--paper-2:#ebebe9;--card:#ffffff;--ink:#1c1b19;--muted:#6b665f;--taupe:#dcdcda;--camel:#8a8782;--line:rgba(28,27,25,.16);
+  --inset:clamp(16px,2.85cqi,41px);--pad:clamp(20px,5cqi,88px);
+  background:var(--white);color:var(--ink);font:300 16px/1.7 var(--font-body)}
+body{background:#d6d6d4;margin:0}
+.review{top:auto;bottom:calc(14px + env(safe-area-inset-bottom,0px))}
+.G .wrap{padding-inline:var(--pad)}
+.G .ov{color:var(--muted);display:block}
+.G .card{background:var(--card)}
+.G h1 em,.G h2 em,.G h3 em{font-style:italic;text-transform:none}
+.G .caps{text-transform:uppercase}
+.G .caps .s{font-family:var(--font-script);text-transform:none;letter-spacing:0;font-size:1.12em;line-height:0;display:inline-block;transform:translateY(-.06em) rotate(-4deg);padding-inline:.1em;font-style:normal}
+.G .tp{height:auto;pointer-events:none}
+
+/* nav */
+.G .nav{position:sticky;top:0;z-index:20;height:60px;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;padding-inline:var(--inset);background:var(--white)}
+.G .nav-l{display:flex;align-items:center;gap:32px}
+.G .burger{all:unset;cursor:pointer;width:22px;height:12px;display:grid;align-content:space-between}
+.G .burger i{display:block;height:1px;background:var(--ink)}
+.G .nav-l ul{display:flex;gap:28px;list-style:none;margin:0;padding:0}
+.G .nav a.l{font:400 11px/1 var(--font-mono);letter-spacing:.15em;text-transform:uppercase}
+.G .nav a.l:hover{color:var(--muted)}
+.G .nav a.l[aria-current]{padding-bottom:4px;border-bottom:1px solid currentColor}
+.G .nav .logo{font-size:24px;letter-spacing:.02em}
+.G .social{display:flex;justify-content:flex-end;gap:22px}
+.G .social svg{width:15px;height:15px;fill:var(--ink)}
+.G .menu{padding:20px var(--inset) 28px;display:grid;gap:10px;font:300 30px/1.1 var(--font-heading);border-bottom:1px solid var(--line)}
+
+/* proof prints (from the homepage proof strip) */
+.G .proof{position:relative;display:grid;gap:12px;background:#ffffff;padding:10px 10px 14px;color:var(--ink)}
+.G .proof .tp{position:absolute;top:-18px;left:50%;width:46%;translate:-50% 0;z-index:2}
+.G .proof:nth-child(1) .tp{rotate:-4deg}.G .proof:nth-child(2) .tp{rotate:3deg}.G .proof:nth-child(3) .tp{rotate:-2deg}
+.G .proof .ph{aspect-ratio:4/5}
+.G .proof figcaption{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.G .proof figcaption i{font:italic 300 17px/1 var(--font-heading)}
+.G .proof figcaption .mono{font-size:9px;color:var(--muted)}
+
+/* ruled ledger (from "What sets our days apart") */
+.G .ledger .r{display:grid;grid-template-columns:clamp(130px,12cqi,180px) 1fr;gap:2px 28px;padding-block:16px;border-top:1px solid var(--line);position:relative}
+.G .ledger .r:last-child{border-bottom:1px solid var(--line)}
+.G .ledger .r::after{content:"";position:absolute;left:calc(clamp(130px,12cqi,180px) + 13px);top:0;bottom:0;width:1px;background:var(--line)}
+.G .ledger .t{font:400 11px/1.6 var(--font-mono);letter-spacing:.08em;text-transform:uppercase;padding-top:7px}
+.G .ledger .t b{font-weight:400;color:var(--muted);margin-right:8px}
+.G .ledger .script{font-size:clamp(24px,2cqi,30px);line-height:1.15}
+.G .ledger p{grid-column:2;color:var(--muted);font-size:14px}
+
+/* cta */
+.G .cta{position:relative;min-height:clamp(560px,50cqi,780px);display:grid;place-items:center;text-align:center;overflow:hidden;background:var(--esp);color:#fff;padding-block:clamp(90px,9cqi,150px)}
+.G .cta>.ph{position:absolute;inset:0;filter:grayscale(1) brightness(.55)}
+.G .cta .in{position:relative;display:grid;justify-items:center;gap:22px;padding-inline:20px}
+.G .cta .in>.mono{color:rgba(255,255,255,.75)}
+.G .cta .script{font-size:clamp(40px,4cqi,64px);margin-bottom:-.35em;position:relative;z-index:1}
+.G .cta h2{font-size:clamp(52px,7.2cqi,116px);line-height:.9;letter-spacing:-.02em;text-transform:uppercase;max-width:9em}
+.G .cta h2 em{padding-right:.1em}
+.G .cta .tlink{margin-top:14px}
+.G .cta .corner{position:absolute;bottom:clamp(24px,3cqi,44px);color:rgba(255,255,255,.75)}
+.G .cta .cl{left:clamp(20px,3.9cqi,56px)}.G .cta .cr{right:clamp(20px,3.9cqi,56px)}
+
+/* footer */
+.G .foot{background:var(--esp);color:#e9e9e7;padding:clamp(60px,6cqi,96px) var(--pad) 36px;display:grid;gap:56px}
+.G .foot-top{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:30px}
+.G .foot-top ul{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+.G .foot-top ul:last-child{justify-items:end;text-align:right}
+.G .foot-top a{font:300 22px/1 var(--font-heading)}
+.G .foot-top a:hover{font-style:italic}
+.G .foot-logo{text-align:center;display:grid;gap:10px}
+.G .foot-logo .logo{font-size:clamp(28px,3.2cqi,46px);letter-spacing:.3em}
+.G .foot-logo .mono{font-size:9.5px;color:#8a8984}
+.G .foot-bot{display:flex;justify-content:space-between;align-items:center;color:#8a8984;border-top:1px solid rgba(233,233,231,.16);padding-top:24px}
+.G .foot-bot .row{letter-spacing:.3em}
+
+@supports (animation-timeline:view()){
+  .G .lift{animation:lift linear both;animation-timeline:view()}
+  @keyframes lift{from{translate:0 40px}to{translate:0 -40px}}
+}
+
+/* ── About ── */
+
+/* 1 · intro: text left, tall photo right (Showit layout, set bigger) */
+.G .intro{display:grid;grid-template-columns:1fr 1.1fr;gap:clamp(30px,5cqi,90px);align-items:center;padding-inline:var(--inset)}
+.G .intro .txt{padding:clamp(70px,8cqi,140px) 0 clamp(50px,5cqi,90px) calc(var(--pad) - var(--inset));display:grid;justify-items:start}
+.G .intro h1{font-size:clamp(46px,5.4cqi,88px);line-height:.92;letter-spacing:-.02em;text-transform:uppercase;margin-top:18px;max-width:8.4em}
+.G .intro .tag{font-size:clamp(26px,2.2cqi,34px);justify-self:end;margin:14px 8% 0 0;transform:rotate(-4deg)}
+.G .intro .body{display:grid;gap:16px;max-width:42ch;margin-top:clamp(30px,3cqi,44px);color:var(--muted);font-size:15px}
+.G .intro .sign{font-size:clamp(40px,3.4cqi,52px);margin-top:18px;color:var(--ink)}
+.G .intro .photo{position:relative;height:clamp(560px,54cqi,860px);align-self:start;margin-top:clamp(20px,2cqi,34px)}
+.G .intro .photo .ph{position:absolute;inset:0}
+.G .intro .photo::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(28,27,25,.45) 0%,rgba(0,0,0,0) 35%);pointer-events:none}
+.G .intro .photo .tp{position:absolute;top:-10px;left:-40px;width:140px;rotate:-38deg;z-index:3}
+.G .intro .corner{position:absolute;z-index:2;bottom:clamp(22px,2.6cqi,40px);color:#fff;font:300 clamp(16px,1.4cqi,21px)/1.05 var(--font-heading);text-transform:uppercase}
+.G .intro .cl{left:clamp(20px,2.6cqi,40px)}
+.G .intro .cr{right:clamp(20px,2.6cqi,40px);text-align:right}
+
+/* 2 · moments: what I look for, on proof prints */
+.G .moments{background:var(--esp);color:#e9e9e7;margin-top:clamp(70px,7cqi,120px);padding-block:clamp(90px,9cqi,150px) clamp(110px,10cqi,170px);text-align:center;overflow:hidden}
+.G .moments .ov{color:#8a8984}
+.G .moments h2{font-size:clamp(40px,5cqi,80px);line-height:.92;margin:16px auto 0;max-width:11em}
+.G .moments .lede{font:300 clamp(20px,1.9cqi,28px)/1.35 var(--font-heading);max-width:30em;margin:30px auto 0;color:#bdbcb8}
+.G .moments .row{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(16px,3cqi,48px);max-width:1080px;margin:clamp(70px,7cqi,100px) auto 0;text-align:left}
+.G .moments .proof:nth-child(2){transform:translateY(36px)}
+.G .moments .proof:nth-child(1){rotate:-1.5deg}.G .moments .proof:nth-child(3){rotate:1.5deg}
+
+/* 3 · artistic promise: photo with a tucked polaroid, ledger */
+.G .promise{background:var(--paper);padding-block:clamp(100px,11cqi,180px);display:grid;grid-template-columns:1fr 1fr;gap:clamp(50px,8cqi,140px);align-items:center}
+.G .stack{position:relative;width:min(100%,460px);justify-self:end;margin-right:8%}
+.G .stack>.ph{aspect-ratio:342/462}
+.G .pol{position:absolute;aspect-ratio:400/600;z-index:2;transition:transform .5s cubic-bezier(.2,.7,.2,1)}
+.G .pol .ph{position:absolute;left:10.25%;top:9.8%;right:10.75%;bottom:19.8%}
+.G .pol img{position:absolute;inset:0;width:100%;height:100%}
+.G .pol:hover{transform:rotate(0deg) scale(1.04)!important}
+.G .stack .pol{width:40%;right:-22%;top:34%;transform:rotate(7deg)}
+.G .promise .txt{max-width:500px}
+.G .promise h2{font-size:clamp(40px,4.6cqi,74px);line-height:.92;margin-block:16px 28px}
+.G .promise .txt>p{color:var(--muted);font-size:15px;margin-bottom:34px}
+.G .promise .tlink{margin-top:40px}
+
+/* 4 · beyond the lens: favorites on a taped index card */
+.G .beyond{background:var(--paper-2);padding-block:clamp(100px,11cqi,180px);display:grid;grid-template-columns:1.15fr 1fr;gap:clamp(50px,7cqi,120px);align-items:center}
+.G .beyond h2{font-size:clamp(40px,4.6cqi,74px);line-height:.92;margin-top:16px}
+.G .fav{position:relative;margin-top:clamp(44px,4cqi,60px);padding:clamp(34px,3.4cqi,52px) clamp(26px,3.2cqi,50px) clamp(26px,2.6cqi,40px);transform:rotate(-1deg);max-width:620px}
+.G .fav>.tp{position:absolute;top:-16px;left:50%;width:58%;translate:-50% 0;rotate:2deg}
+.G .fav .script{font-size:clamp(30px,2.6cqi,40px);display:block;margin-bottom:18px}
+.G .fav ol{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;column-gap:34px}
+.G .fav li{display:grid;grid-template-columns:30px 1fr;gap:8px;padding-block:13px;border-top:1px solid var(--line);font-size:14px;line-height:1.55;color:var(--muted)}
+.G .fav li b{font:400 10px/2.1 var(--font-mono);letter-spacing:.1em;color:var(--ink)}
+.G .beyond .side{display:grid;justify-items:center}
+.G .beyond .pola{position:relative;width:min(100%,380px);padding:12px 12px 60px;background:#fff;transform:rotate(3deg)}
+.G .beyond .pola .ph{aspect-ratio:342/450}
+.G .beyond .pola .clip{position:absolute;top:-44px;left:16%;transform:rotate(-8deg);width:34px;aspect-ratio:26/80;height:auto;overflow:visible;z-index:5}
+.G .beyond .pola figcaption{position:absolute;left:0;right:0;bottom:14px;text-align:center;font-family:var(--font-script);font-size:30px;line-height:1}
+
+/* mobile */
+@container page (max-width:760px){
+  .G .nav{grid-template-columns:auto 1fr auto;gap:12px}
+  .G .nav-l ul{display:none}
+  .G .nav .logo{font-size:19px;justify-self:center}
+  .G .social{gap:14px}
+  .G .intro{grid-template-columns:1fr;gap:0}
+  .G .intro .txt{padding:48px 4px 44px}
+  .G .intro h1{font-size:clamp(42px,12.4cqi,56px)}
+  .G .intro .photo{height:480px;margin-top:0;order:-1}
+  .G .intro .photo .tp{left:auto;right:-26px;rotate:32deg;width:96px}
+  .G .intro .corner{font-size:14px}
+  .G .moments{margin-top:24px}
+  .G .moments .row{gap:10px}
+  .G .moments .proof{padding:6px 6px 8px;gap:8px}
+  .G .moments .proof figcaption i{font-size:13px}
+  .G .moments .proof figcaption .mono{display:none}
+  .G .moments .proof:nth-child(2){transform:translateY(20px)}
+  .G .promise{grid-template-columns:1fr;gap:70px}
+  .G .stack{width:74%;justify-self:start;margin-right:0}
+  .G .stack .pol{width:46%;right:-26%}
+  .G .ledger .r{grid-template-columns:1fr}.G .ledger .r::after{display:none}.G .ledger p{grid-column:1}
+  .G .beyond{grid-template-columns:1fr;gap:80px}
+  .G .fav ol{grid-template-columns:1fr}
+  .G .beyond .pola{width:82%}
+  .G .foot-top{grid-template-columns:1fr 1fr}
+  .G .foot-logo{grid-column:1/-1;grid-row:1}
+  .G .foot-bot{flex-direction:column;gap:14px}
+}
+</style>
+</head><body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="paperclip" viewBox="0 0 26 80"><path d="M8.5 22 V61 a4.5 4.5 0 0 0 9 0 V13 a7.5 7.5 0 0 0 -15 0 V64 a10.5 10.5 0 0 0 21 0 V25" fill="none" stroke="#a9a69f" stroke-width="2.2" stroke-linecap="round"/><path d="M8.5 22 V61 a4.5 4.5 0 0 0 9 0 V13 a7.5 7.5 0 0 0 -15 0 V64 a10.5 10.5 0 0 0 21 0 V25" fill="none" stroke="#e9e7e2" stroke-width=".7" stroke-linecap="round" transform="translate(-.6 -.6)"/></symbol>
+  </defs>
+</svg>
+
+<div class="review" role="group" aria-label="Preview size"><span>Woodhouse 2.0 · About</span><button type="button" data-view="desktop">Desktop</button><button type="button" data-view="mobile">Mobile</button></div>
+
+<div class="wh G">
+  <!-- nav -->
+  <header class="nav">
+    <div class="nav-l">
+      <button class="burger" type="button" data-menu aria-expanded="false" aria-label="Menu"><i></i><i></i></button>
+      <ul><li><a class="l" href="about.html" aria-current="page">About</a></li><li><a class="l" href="gallery.html">Gallery</a></li><li><a class="l" href="blog.html">Blog</a></li></ul>
+    </div>
+    <a class="logo" href="home.html">Woodhouse</a>
+    <div class="social">
+      <a href="#" aria-label="Instagram"><svg viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a>
+      <a href="#" aria-label="Pinterest"><svg viewBox="0 0 496 512"><path d="M496 256c0 137-111 248-248 248-25.6 0-50.2-3.9-73.4-11.1 10.1-16.5 25.2-43.5 30.8-65 3-11.6 15.4-59 15.4-59 8.1 15.4 31.7 28.5 56.8 28.5 74.8 0 128.7-68.8 128.7-154.3 0-81.9-66.9-143.2-152.9-143.2-107 0-163.9 71.8-163.9 150.1 0 36.4 19.4 81.7 50.3 96.1 4.7 2.2 7.2 1.2 8.3-3.3.8-3.4 5-20.3 6.9-28.1.6-2.5.3-4.7-1.7-7.1-10.1-12.5-18.3-35.3-18.3-56.6 0-54.7 41.4-107.6 112-107.6 60.9 0 103.6 41.5 103.6 100.9 0 67.1-33.9 113.6-78 113.6-24.3 0-42.6-20.1-36.7-44.8 7-29.5 20.5-61.3 20.5-82.6 0-19-10.2-34.9-31.4-34.9-24.9 0-44.9 25.7-44.9 60.2 0 22 7.4 36.8 7.4 36.8s-24.5 103.8-29 123.2c-5 21.4-3 51.6-.9 71.2C65.4 450.9 0 361.1 0 256 0 119 111 8 248 8s248 111 248 248z"/></svg></a>
+      <a href="#" aria-label="Facebook"><svg viewBox="0 0 320 512"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg></a>
+    </div>
+  </header>
+  <nav class="menu" hidden><a href="about.html">About</a><a href="gallery.html">Gallery</a><a href="process.html">The Process</a><a href="services.html">Services</a><a href="blog.html">Blog</a><a href="contact.html"><em>Inquire</em></a></nav>
+
+  <!-- 1 · intro -->
+  <section class="intro">
+    <div class="txt">
+      <span class="mono ov">Hello, I’m Emma</span>
+      <h1 class="caps">A storyteller <i class="s">for</i> the wildly in love</h1>
+      <p class="script tag">the woman behind the lens</p>
+      <div class="body">
+        <p>I believe that your love story is a work of art, and I am endlessly inspired by the honor of preserving it. For as long as I can remember, I have been drawn to the quiet, graceful moments, the kinds that often go unnoticed but hold the most meaning.</p>
+        <p>My journey into photography was born from a love of classic novels and art history, where every detail has a purpose and every frame tells a story. I bring that same intentionality to your wedding day, creating images that are not only beautiful today but will become more precious with every passing year.</p>
+      </div>
+      <p class="script sign">Emma</p>
+    </div>
+    <figure class="photo">
+      <img class="tp" src="../assets/tape-short-2.png" alt="" aria-hidden="true">
+      <div class="ph" role="img" aria-label="A bride twirls in a meadow while her groom watches from the grass" style="background-image:url(../assets/wonder/1b2636876a970b9e180693c380ec8839071aed42f100426313ecca156513909a.jpg)"></div>
+      <p class="corner cl">Made in<br>Austin, TX</p>
+      <p class="corner cr">Since<br>2016</p>
+    </figure>
+  </section>
+
+  <!-- 2 · moments -->
+  <section class="moments wrap">
+    <span class="mono ov">What I look for</span>
+    <h2 class="caps">This is where <i class="s">the</i> magic lives</h2>
+    <p class="lede">It’s the gentle squeeze of a hand, a tear brushed away during the vows, the shared glance across a candlelit room. This is what I seek to capture.</p>
+    <div class="row lift">
+      <figure class="proof"><img class="tp" src="../assets/tape-short-1.png" alt="" aria-hidden="true"><div class="ph bw" style="background-image:url(../assets/story-hand-kiss.jpg)"></div><figcaption><i>(the hand)</i><span class="mono">Nº 01</span></figcaption></figure>
+      <figure class="proof"><img class="tp" src="../assets/tape-short-2.png" alt="" aria-hidden="true"><div class="ph bw" style="background-image:url(../assets/polaroid-07.jpg)"></div><figcaption><i>(the vows)</i><span class="mono">Nº 02</span></figcaption></figure>
+      <figure class="proof"><img class="tp" src="../assets/tape-short-1.png" alt="" aria-hidden="true"><div class="ph bw" style="background-image:url(../assets/film-cake.jpg)"></div><figcaption><i>(the glance)</i><span class="mono">Nº 03</span></figcaption></figure>
+    </div>
+  </section>
+
+  <!-- 3 · artistic promise -->
+  <section class="promise wrap">
+    <div class="stack">
+      <div class="ph" role="img" aria-label="A couple on a stone terrace lined with cypress trees" style="background-image:url(../assets/wonder/dbe402b5902f8155435cb6d59e1cbfece18690537da19915791493a2f56fd4ef.jpg)"></div>
+      <figure class="pol"><div class="ph" style="background-image:url(../assets/wonder/ea21d9815f6622066c6e1bd8c600f7938dde4e55fd32e7e4c60c3b12d08df9b3.jpg)"></div><img src="../assets/polaroid-frame.webp" alt=""></figure>
+    </div>
+    <div class="txt">
+      <span class="mono ov">My artistic promise</span>
+      <h2 class="caps">Timeless imagery <i class="s">for</i> the modern romantic</h2>
+      <p>My style is a delicate blend of fine art and photojournalism. The result is a gallery filled with light, emotion and an effortless sophistication that will stand the test of time.</p>
+      <div class="ledger">
+        <div class="r"><span class="t"><b>01</b>Portraits</span><span class="script">gently guided</span><p>Gentle direction to help you feel comfortable and look your most beautiful, in elegant, artfully composed images.</p></div>
+        <div class="r"><span class="t"><b>02</b>The day</span><span class="script">as it unfolds</span><p>For everything else, a documentary approach: authentic moments, captured as they happen naturally.</p></div>
+      </div>
+      <a class="tlink" href="gallery.html">Explore the galleries <span>→</span></a>
+    </div>
+  </section>
+
+  <!-- 4 · beyond the lens -->
+  <section class="beyond wrap">
+    <div>
+      <span class="mono ov">Beyond the lens</span>
+      <h2 class="caps">When I’m not behind <i class="s">the</i> camera</h2>
+      <div class="fav card">
+        <img class="tp" src="../assets/tape-long.png" alt="" aria-hidden="true">
+        <span class="script">a few of my favorite things…</span>
+        <ol>
+          <li><b>01</b>My weekly visit to the farmer’s market for fresh flowers.</li>
+          <li><b>02</b>Starting the day slowly with a cup of tea and my journal.</li>
+          <li><b>03</b>Planning my next trip to the English countryside or the coast of Italy.</li>
+          <li><b>04</b>Wandering through a new city with no destination in mind.</li>
+          <li><b>05</b>Curling up with my golden retriever, Leo, and a classic film.</li>
+          <li><b>06</b>The scent of peonies and old books.</li>
+        </ol>
+      </div>
+    </div>
+    <div class="side">
+      <figure class="pola"><svg class="clip" viewBox="0 0 26 80" aria-hidden="true"><use href="#paperclip"/></svg><div class="ph" role="img" aria-label="White flowers spilling over a garden arch" style="background-image:url(../assets/wonder/a3562b053da93b663b21261c56258ec3b3ff7f9d48ed299e6358841351c76413.jpg)"></div><figcaption>Saturday flowers</figcaption></figure>
+    </div>
+  </section>
+
+  <!-- cta -->
+  <section class="cta">
+    <div class="ph" style="background-image:url(../assets/cta-embrace.jpg)"></div>
+    <div class="in">
+      <span class="mono">Now booking 2027</span>
+      <p class="script">let’s make magic happen.</p>
+      <h2>Let’s start <em>your</em> chapter</h2>
+      <a class="tlink" href="contact.html">Reserve my date <span>→</span></a>
+    </div>
+    <p class="corner cl mono">Since 2016</p>
+    <p class="corner cr mono">Made in Austin, TX</p>
+  </section>
+
+  <footer class="foot">
+    <div class="foot-top">
+      <ul><li><a href="about.html">About</a></li><li><a href="services.html">Services</a></li><li><a href="process.html">Our Process</a></li><li><a href="services.html#collections">Pricing</a></li></ul>
+      <div class="foot-logo"><span class="logo">Woodhouse</span><span class="mono">Wedding Photographer</span></div>
+      <ul><li><a href="gallery.html">Gallery</a></li><li><a href="resources.html">Resources</a></li><li><a href="mentorship.html">Mentorship</a></li><li><a href="contact.html">Contact</a></li></ul>
+    </div>
+    <div class="foot-bot mono"><span>© Woodhouse Photography</span><span class="row">01 — Always, Forever — 04</span><span>Austin, TX</span></div>
+  </footer>
+</div>
+<script>
+(()=>{const btns=document.querySelectorAll('.review button');
+const set=m=>{document.body.classList.toggle('as-mobile',m==='mobile');btns.forEach(b=>b.setAttribute('aria-pressed',b.dataset.view===m));try{localStorage.setItem('wh-view',m)}catch(e){}};
+btns.forEach(b=>b.addEventListener('click',()=>{set(b.dataset.view);window.scrollTo({top:0})}));
+let saved='desktop';try{saved=localStorage.getItem('wh-view')||'desktop'}catch(e){}
+if(window.innerWidth<700)saved='desktop';set(saved);
+document.querySelectorAll('[data-menu]').forEach(t=>t.addEventListener('click',()=>{const n=t.closest('.wh').querySelector('.menu');const o=n.hidden;n.hidden=!o;t.setAttribute('aria-expanded',o)}))})();
+</script>
+</body></html>

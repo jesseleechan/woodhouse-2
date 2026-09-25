@@ -1,0 +1,375 @@
+<!doctype html><html lang="en"><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style>
+<title>Woodhouse 2.0 Contact</title>
+<style>
+@font-face{font-family:"IvyPresto Display";src:url(../fonts/ivypresto-light.woff) format("woff");font-weight:300;font-style:normal;font-display:swap}
+@font-face{font-family:"IvyPresto Display";src:url(../fonts/ivypresto-light-italic.woff) format("woff");font-weight:300;font-style:italic;font-display:swap}
+@font-face{font-family:"IvyPresto Display";src:url(../fonts/ivypresto-regular.woff) format("woff");font-weight:400 500;font-style:normal;font-display:swap}
+@font-face{font-family:"IvyPresto Display";src:url(../fonts/ivypresto-italic.woff) format("woff");font-weight:400 500;font-style:italic;font-display:swap}
+@font-face{font-family:"Thesignature";src:url(../fonts/thesignature.woff) format("woff");font-display:swap}
+@font-face{font-family:"Fino Sans";src:url(../fonts/fino-sans.woff) format("woff");font-display:swap}
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=DM+Mono:wght@300;400&family=Inter:wght@300;400;500&family=Mrs+Saint+Delafield&family=Tenor+Sans&display=swap">
+<style>
+:root{
+  --font-heading:"IvyPresto Display","Cormorant Garamond",Georgia,serif;
+  --font-script:"Thesignature","Mrs Saint Delafield","Snell Roundhand",cursive;
+  --font-logo:"Fino Sans","Tenor Sans","Helvetica Neue",Arial,sans-serif;
+  --font-body:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --font-mono:"DM Mono",ui-monospace,Menlo,monospace;
+  --grain:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .55 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+img{max-width:100%;display:block}
+figure{margin:0}
+[hidden]{display:none!important}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:1.5px solid currentColor;outline-offset:4px}
+h1,h2,h3,h4{font-family:var(--font-heading);font-weight:300;line-height:.98;margin:0;text-wrap:balance;letter-spacing:-.01em}
+p{margin:0}
+.wh{container:page/inline-size;max-width:1600px;margin-inline:auto;overflow:clip;position:relative}
+body.as-mobile .wh{max-width:390px;margin-block:72px 48px;border-radius:34px;box-shadow:0 0 0 10px #151514,0 40px 80px -30px rgba(0,0,0,.45)}
+.mono{font:400 11px/1.5 var(--font-mono);letter-spacing:.2em;text-transform:uppercase}
+.script{font-family:var(--font-script);font-weight:400;letter-spacing:0;line-height:1;text-transform:none}
+.logo{font-family:var(--font-logo);letter-spacing:.38em;text-transform:uppercase}
+.tlink{display:inline-flex;gap:.8em;align-items:center;font:400 11px/1 var(--font-mono);letter-spacing:.22em;text-transform:uppercase;padding-bottom:.7em;border-bottom:1px solid currentColor;transition:gap .3s}
+.tlink:hover{gap:1.4em}
+.ph{position:relative;overflow:hidden;background-color:#8a847b;background-size:cover;background-position:center;background-repeat:no-repeat}
+.ph.bw{filter:grayscale(1)}
+.ph::before{content:"";position:absolute;inset:0;background:var(--grain);opacity:.28;mix-blend-mode:overlay;pointer-events:none}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.review{position:fixed;z-index:50;top:calc(12px + env(safe-area-inset-top,0px));right:12px;display:flex;align-items:center;gap:4px;padding:4px 4px 4px 14px;background:rgba(20,20,19,.88);color:#f4f4f3;border-radius:999px;font:400 10px/1 var(--font-mono);letter-spacing:.16em;text-transform:uppercase;backdrop-filter:blur(8px)}
+.review span{padding-right:8px;opacity:.7}
+.review button{all:unset;cursor:pointer;padding:9px 12px;border-radius:999px}
+.review button[aria-pressed="true"]{background:#f4f4f3;color:#141413}
+.review button:focus-visible{outline:1px solid #f4f4f3}
+@media (max-width:600px){.review span{display:none}.review{right:8px}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
+<style>
+/* ── Woodhouse 2.0 · shared (from pages/home.html) ── */
+.G{--white:#ffffff;--esp:#0b0b0a;--paper:#f4f4f3;--paper-2:#ebebe9;--card:#ffffff;--ink:#1c1b19;--muted:#6b665f;--taupe:#dcdcda;--camel:#8a8782;--line:rgba(28,27,25,.16);
+  --inset:clamp(16px,2.85cqi,41px);--pad:clamp(20px,5cqi,88px);
+  background:var(--white);color:var(--ink);font:300 16px/1.7 var(--font-body)}
+body{background:#d6d6d4;margin:0}
+.review{top:auto;bottom:calc(14px + env(safe-area-inset-bottom,0px))}
+.G .wrap{padding-inline:var(--pad)}
+.G .ov{color:var(--muted);display:block}
+.G .card{background:var(--card)}
+.G h1 em,.G h2 em,.G h3 em{font-style:italic;text-transform:none}
+.G .caps{text-transform:uppercase}
+.G .caps .s{font-family:var(--font-script);text-transform:none;letter-spacing:0;font-size:1.12em;line-height:0;display:inline-block;transform:translateY(-.06em) rotate(-4deg);padding-inline:.1em;font-style:normal}
+.G .tp{height:auto;pointer-events:none}
+
+/* nav */
+.G .nav{position:sticky;top:0;z-index:20;height:60px;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;padding-inline:var(--inset);background:var(--white)}
+.G .nav-l{display:flex;align-items:center;gap:32px}
+.G .burger{all:unset;cursor:pointer;width:22px;height:12px;display:grid;align-content:space-between}
+.G .burger i{display:block;height:1px;background:var(--ink)}
+.G .nav-l ul{display:flex;gap:28px;list-style:none;margin:0;padding:0}
+.G .nav a.l{font:400 11px/1 var(--font-mono);letter-spacing:.15em;text-transform:uppercase}
+.G .nav a.l:hover{color:var(--muted)}
+.G .nav a.l[aria-current]{padding-bottom:4px;border-bottom:1px solid currentColor}
+.G .nav .logo{font-size:24px;letter-spacing:.02em}
+.G .social{display:flex;justify-content:flex-end;gap:22px}
+.G .social svg{width:15px;height:15px;fill:var(--ink)}
+.G .menu{padding:20px var(--inset) 28px;display:grid;gap:10px;font:300 30px/1.1 var(--font-heading);border-bottom:1px solid var(--line)}
+
+/* proof prints (from the homepage proof strip) */
+.G .proof{position:relative;display:grid;gap:12px;background:#ffffff;padding:10px 10px 14px;color:var(--ink)}
+.G .proof .tp{position:absolute;top:-18px;left:50%;width:46%;translate:-50% 0;z-index:2}
+.G .proof:nth-child(1) .tp{rotate:-4deg}.G .proof:nth-child(2) .tp{rotate:3deg}.G .proof:nth-child(3) .tp{rotate:-2deg}
+.G .proof .ph{aspect-ratio:4/5}
+.G .proof figcaption{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.G .proof figcaption i{font:italic 300 17px/1 var(--font-heading)}
+.G .proof figcaption .mono{font-size:9px;color:var(--muted)}
+
+/* ruled ledger (from "What sets our days apart") */
+.G .ledger .r{display:grid;grid-template-columns:clamp(130px,12cqi,180px) 1fr;gap:2px 28px;padding-block:16px;border-top:1px solid var(--line);position:relative}
+.G .ledger .r:last-child{border-bottom:1px solid var(--line)}
+.G .ledger .r::after{content:"";position:absolute;left:calc(clamp(130px,12cqi,180px) + 13px);top:0;bottom:0;width:1px;background:var(--line)}
+.G .ledger .t{font:400 11px/1.6 var(--font-mono);letter-spacing:.08em;text-transform:uppercase;padding-top:7px}
+.G .ledger .t b{font-weight:400;color:var(--muted);margin-right:8px}
+.G .ledger .script{font-size:clamp(24px,2cqi,30px);line-height:1.15}
+.G .ledger p{grid-column:2;color:var(--muted);font-size:14px}
+
+/* cta */
+.G .cta{position:relative;min-height:clamp(560px,50cqi,780px);display:grid;place-items:center;text-align:center;overflow:hidden;background:var(--esp);color:#fff;padding-block:clamp(90px,9cqi,150px)}
+.G .cta>.ph{position:absolute;inset:0;filter:grayscale(1) brightness(.55)}
+.G .cta .in{position:relative;display:grid;justify-items:center;gap:22px;padding-inline:20px}
+.G .cta .in>.mono{color:rgba(255,255,255,.75)}
+.G .cta .script{font-size:clamp(40px,4cqi,64px);margin-bottom:-.35em;position:relative;z-index:1}
+.G .cta h2{font-size:clamp(52px,7.2cqi,116px);line-height:.9;letter-spacing:-.02em;text-transform:uppercase;max-width:9em}
+.G .cta h2 em{padding-right:.1em}
+.G .cta .tlink{margin-top:14px}
+.G .cta .corner{position:absolute;bottom:clamp(24px,3cqi,44px);color:rgba(255,255,255,.75)}
+.G .cta .cl{left:clamp(20px,3.9cqi,56px)}.G .cta .cr{right:clamp(20px,3.9cqi,56px)}
+
+/* footer */
+.G .foot{background:var(--esp);color:#e9e9e7;padding:clamp(60px,6cqi,96px) var(--pad) 36px;display:grid;gap:56px}
+.G .foot-top{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:30px}
+.G .foot-top ul{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+.G .foot-top ul:last-child{justify-items:end;text-align:right}
+.G .foot-top a{font:300 22px/1 var(--font-heading)}
+.G .foot-top a:hover{font-style:italic}
+.G .foot-logo{text-align:center;display:grid;gap:10px}
+.G .foot-logo .logo{font-size:clamp(28px,3.2cqi,46px);letter-spacing:.3em}
+.G .foot-logo .mono{font-size:9.5px;color:#8a8984}
+.G .foot-bot{display:flex;justify-content:space-between;align-items:center;color:#8a8984;border-top:1px solid rgba(233,233,231,.16);padding-top:24px}
+.G .foot-bot .row{letter-spacing:.3em}
+
+@supports (animation-timeline:view()){
+  .G .lift{animation:lift linear both;animation-timeline:view()}
+  @keyframes lift{from{translate:0 40px}to{translate:0 -40px}}
+}
+
+/* ── Contact ── */
+
+/* 1 · hello: text left, couple in the gold oval mirror right */
+.G .hello{display:grid;grid-template-columns:1.1fr 1fr;gap:clamp(40px,6cqi,110px);align-items:center;padding-block:clamp(60px,6cqi,110px) clamp(80px,8cqi,130px)}
+.G .hello h1{font-size:clamp(48px,5.8cqi,96px);line-height:.9;letter-spacing:-.02em;margin-top:18px;max-width:8em}
+.G .hello .tag{font-size:clamp(28px,2.4cqi,36px);margin:14px 0 0 30%;transform:rotate(-4deg);color:var(--muted)}
+.G .hello .lede{color:var(--muted);font-size:16px;max-width:44ch;margin-top:clamp(28px,3cqi,40px)}
+.G .details{margin-top:clamp(34px,3.4cqi,50px);max-width:560px}
+.G .details div{display:grid;grid-template-columns:150px 1fr;gap:20px;padding-block:14px;border-top:1px solid var(--line)}
+.G .details div:last-child{border-bottom:1px solid var(--line)}
+.G .details dt{font:400 10px/1.9 var(--font-mono);letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+.G .details dd{margin:0;font:300 clamp(19px,1.6cqi,23px)/1.25 var(--font-heading)}
+.G .details a:hover{font-style:italic}
+.G .mirror{position:relative;width:min(100%,440px);aspect-ratio:660/900;justify-self:center;rotate:2deg}
+.G .mirror .ph{position:absolute;left:13.5%;top:12.5%;width:72.4%;height:74.2%;border-radius:50%}
+.G .mirror img{position:absolute;inset:0;width:100%;height:100%}
+.G .mirror figcaption{position:absolute;left:-14%;bottom:4%;font-size:clamp(30px,2.6cqi,40px);rotate:-6deg}
+
+/* 2 · inquiry: a letter to Emma on a taped sheet */
+.G .inq{background:var(--paper);padding-block:clamp(100px,10cqi,170px);display:grid;grid-template-columns:1fr 1.9fr;gap:clamp(40px,6cqi,110px);align-items:start}
+.G .inq .side{position:sticky;top:100px}
+.G .inq .side h2{font-size:clamp(40px,4.4cqi,70px);line-height:.92;margin:16px 0 30px}
+.G .letter{position:relative;background:#fff;padding:clamp(40px,5cqi,76px) clamp(26px,5cqi,76px) clamp(40px,4cqi,64px);rotate:-.4deg}
+.G .letter>.tp{position:absolute;top:-16px;left:50%;width:44%;translate:-50% 0;rotate:1.5deg}
+.G .letter .dear{font-size:clamp(40px,3.4cqi,54px);display:block;margin-bottom:clamp(26px,2.6cqi,40px)}
+.G .letter .date{position:absolute;top:clamp(40px,5cqi,76px);right:clamp(26px,5cqi,76px);font-size:10px;color:var(--muted)}
+.G .form{display:grid;grid-template-columns:1fr 1fr;gap:clamp(26px,2.6cqi,36px) clamp(24px,3cqi,44px)}
+.G .form .full{grid-column:1/-1}
+.G .fld{display:grid;gap:6px;align-content:start}
+.G .fld>label,.G .fld legend{font:400 10px/1.4 var(--font-mono);letter-spacing:.16em;text-transform:uppercase;color:var(--muted);padding:0}
+.G .fld>label b,.G .fld legend b{font-weight:400;color:var(--ink)}
+.G fieldset{border:0;margin:0;padding:0;min-width:0}
+.G .fld input,.G .fld select,.G .fld textarea{appearance:none;-webkit-appearance:none;width:100%;border:0;border-bottom:1px solid var(--line);border-radius:0;background:transparent;color:var(--ink);font:300 17px/1.4 var(--font-body);padding:10px 0 11px;outline:none;transition:border-color .2s}
+.G .fld select{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231c1b19' stroke-width='1.4'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 2px center;background-size:14px;padding-right:24px;cursor:pointer}
+.G .fld input:focus,.G .fld select:focus,.G .fld textarea:focus{border-bottom-color:var(--ink)}
+.G .fld:focus-within>label{color:var(--ink)}
+.G .fld input::placeholder,.G .fld textarea::placeholder{color:#a8a6a1}
+.G .fld textarea{min-height:190px;resize:vertical;line-height:36px;padding-top:4px;border-bottom:0;background:repeating-linear-gradient(transparent 0 35px,var(--line) 35px 36px)}
+.G .fld .err{font-size:12px;color:#8f2d1f;min-height:0}
+.G .fld.bad input,.G .fld.bad textarea{border-bottom-color:#8f2d1f}
+.G .chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px}
+.G .chips label{position:relative;cursor:pointer}
+.G .chips input{position:absolute;opacity:0;inset:0;margin:0;cursor:pointer}
+.G .chips span{display:block;padding:11px 16px;border:1px solid var(--line);font:400 10.5px/1 var(--font-mono);letter-spacing:.14em;text-transform:uppercase;transition:background .2s,color .2s,border-color .2s}
+.G .chips label:hover span{border-color:var(--ink)}
+.G .chips input:checked+span{background:var(--ink);border-color:var(--ink);color:#fff}
+.G .chips input:focus-visible+span{outline:1.5px solid var(--ink);outline-offset:3px}
+.G .signoff{grid-column:1/-1;display:flex;justify-content:space-between;align-items:end;gap:24px;flex-wrap:wrap;margin-top:10px}
+.G .signoff .script{font-size:clamp(34px,3cqi,46px);line-height:1.1}
+.G .signoff .script span{display:block;color:var(--muted);font-size:.8em}
+.G .send{all:unset;cursor:pointer;display:inline-flex;gap:14px;align-items:center;background:var(--ink);color:#fff;padding:19px 30px;font:400 11px/1 var(--font-mono);letter-spacing:.22em;text-transform:uppercase;transition:gap .3s}
+.G .send:hover{gap:22px}
+.G .send:focus-visible{outline:1.5px solid var(--ink);outline-offset:4px}
+.G .note{grid-column:1/-1;font-size:12.5px;color:var(--muted)}
+.G .thanks{display:grid;justify-items:center;text-align:center;gap:18px;padding-block:clamp(40px,5cqi,80px)}
+.G .thanks .script{font-size:clamp(56px,5cqi,80px)}
+.G .thanks h3{font-size:clamp(32px,3cqi,48px);line-height:.95;text-transform:uppercase}
+.G .thanks p{color:var(--muted);max-width:42ch}
+
+/* 3 · questions */
+.G .faq{padding-block:clamp(100px,10cqi,170px);display:grid;grid-template-columns:1fr 1.6fr;gap:clamp(40px,6cqi,110px);align-items:start}
+.G .faq h2{font-size:clamp(40px,4.4cqi,70px);line-height:.92;margin-top:16px}
+.G .faq .intro p{color:var(--muted);margin-top:22px;max-width:34ch}
+.G .acc details{border-top:1px solid var(--line)}
+.G .acc details:last-child{border-bottom:1px solid var(--line)}
+.G .acc summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:44px 1fr 16px;gap:10px;align-items:center;padding-block:22px;font:300 clamp(21px,1.8cqi,27px)/1.15 var(--font-heading)}
+.G .acc summary::-webkit-details-marker{display:none}
+.G .acc summary b{font:400 10px/1 var(--font-mono);letter-spacing:.12em;color:var(--muted)}
+.G .acc summary svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:1.4;transition:transform .3s}
+.G .acc details[open] summary svg{transform:rotate(180deg)}
+.G .acc details[open] summary{font-style:italic}
+.G .acc summary:focus-visible{outline:1.5px solid currentColor;outline-offset:4px}
+.G .acc .body{padding:0 26px 26px 54px;color:var(--muted);font-size:15px;max-width:62ch}
+
+/* 4 · instagram strip */
+.G .insta{background:var(--esp);color:#dcdcda;padding-block:clamp(70px,6cqi,100px) clamp(80px,7cqi,110px)}
+.G .insta .head{display:flex;justify-content:space-between;align-items:baseline;gap:20px;margin-bottom:30px;color:#8a8984}
+.G .insta .head a{color:#e9e9e7;border-bottom:1px solid currentColor;padding-bottom:4px}
+.G .grams{display:grid;grid-template-columns:repeat(6,1fr);gap:clamp(8px,1.2cqi,18px)}
+.G .grams a{display:block;background:#fff;padding:7px 7px 22px;transition:transform .4s cubic-bezier(.2,.7,.2,1)}
+.G .grams a:nth-child(odd){rotate:-1.5deg}.G .grams a:nth-child(even){rotate:1.5deg;translate:0 12px}
+.G .grams a:hover{transform:translateY(-6px)}
+.G .grams .ph{aspect-ratio:1}
+
+/* mobile */
+@container page (max-width:760px){
+  .G .nav{grid-template-columns:auto 1fr auto;gap:12px}
+  .G .nav-l ul{display:none}
+  .G .nav .logo{font-size:19px;justify-self:center}
+  .G .social{gap:14px}
+  .G .hello{grid-template-columns:1fr;gap:60px}
+  .G .hello h1{font-size:clamp(44px,12.4cqi,58px)}
+  .G .mirror{width:78%;order:-1}
+  .G .mirror figcaption{left:-8%}
+  .G .details div{grid-template-columns:1fr;gap:4px}
+  .G .inq{grid-template-columns:1fr;gap:50px}
+  .G .inq .side{position:static}
+  .G .form{grid-template-columns:1fr}
+  .G .letter .date{position:static;display:block;margin-bottom:10px}
+  .G .faq{grid-template-columns:1fr;gap:40px}
+  .G .acc .body{padding-left:0}
+  .G .grams{grid-template-columns:repeat(3,1fr)}
+  .G .insta .head span:first-child{display:none}
+  .G .foot-top{grid-template-columns:1fr 1fr}
+  .G .foot-logo{grid-column:1/-1;grid-row:1}
+  .G .foot-bot{flex-direction:column;gap:14px}
+}
+</style>
+</head><body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="paperclip" viewBox="0 0 26 80"><path d="M8.5 22 V61 a4.5 4.5 0 0 0 9 0 V13 a7.5 7.5 0 0 0 -15 0 V64 a10.5 10.5 0 0 0 21 0 V25" fill="none" stroke="#a9a69f" stroke-width="2.2" stroke-linecap="round"/><path d="M8.5 22 V61 a4.5 4.5 0 0 0 9 0 V13 a7.5 7.5 0 0 0 -15 0 V64 a10.5 10.5 0 0 0 21 0 V25" fill="none" stroke="#e9e7e2" stroke-width=".7" stroke-linecap="round" transform="translate(-.6 -.6)"/></symbol>
+  </defs>
+</svg>
+
+<div class="review" role="group" aria-label="Preview size"><span>Woodhouse 2.0 · Contact</span><button type="button" data-view="desktop">Desktop</button><button type="button" data-view="mobile">Mobile</button></div>
+
+<div class="wh G">
+  <!-- nav -->
+  <header class="nav">
+    <div class="nav-l">
+      <button class="burger" type="button" data-menu aria-expanded="false" aria-label="Menu"><i></i><i></i></button>
+      <ul><li><a class="l" href="about.html">About</a></li><li><a class="l" href="gallery.html">Gallery</a></li><li><a class="l" href="blog.html">Blog</a></li></ul>
+    </div>
+    <a class="logo" href="home.html">Woodhouse</a>
+    <div class="social">
+      <a href="#" aria-label="Instagram"><svg viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a>
+      <a href="#" aria-label="Pinterest"><svg viewBox="0 0 496 512"><path d="M496 256c0 137-111 248-248 248-25.6 0-50.2-3.9-73.4-11.1 10.1-16.5 25.2-43.5 30.8-65 3-11.6 15.4-59 15.4-59 8.1 15.4 31.7 28.5 56.8 28.5 74.8 0 128.7-68.8 128.7-154.3 0-81.9-66.9-143.2-152.9-143.2-107 0-163.9 71.8-163.9 150.1 0 36.4 19.4 81.7 50.3 96.1 4.7 2.2 7.2 1.2 8.3-3.3.8-3.4 5-20.3 6.9-28.1.6-2.5.3-4.7-1.7-7.1-10.1-12.5-18.3-35.3-18.3-56.6 0-54.7 41.4-107.6 112-107.6 60.9 0 103.6 41.5 103.6 100.9 0 67.1-33.9 113.6-78 113.6-24.3 0-42.6-20.1-36.7-44.8 7-29.5 20.5-61.3 20.5-82.6 0-19-10.2-34.9-31.4-34.9-24.9 0-44.9 25.7-44.9 60.2 0 22 7.4 36.8 7.4 36.8s-24.5 103.8-29 123.2c-5 21.4-3 51.6-.9 71.2C65.4 450.9 0 361.1 0 256 0 119 111 8 248 8s248 111 248 248z"/></svg></a>
+      <a href="#" aria-label="Facebook"><svg viewBox="0 0 320 512"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg></a>
+    </div>
+  </header>
+  <nav class="menu" hidden><a href="about.html">About</a><a href="gallery.html">Gallery</a><a href="process.html">The Process</a><a href="services.html">Services</a><a href="blog.html">Blog</a><a href="contact.html"><em>Inquire</em></a></nav>
+
+  <!-- 1 · hello -->
+  <section class="hello wrap">
+    <div>
+      <span class="mono ov">Inquiries · Now booking 2027</span>
+      <h1 class="caps">Tell me <i class="s">your</i> love story</h1>
+      <p class="script tag">I can’t wait to hear it</p>
+      <p class="lede">Share a few details below and I’ll reply within two business days with my availability, the investment guide and a few questions of my own.</p>
+      <dl class="details">
+        <div><dt>Email</dt><dd><a href="mailto:hello@emmawoodhouse.com">hello@emmawoodhouse.com</a></dd></div>
+        <div><dt>Studio</dt><dd>Austin, Texas · by appointment</dd></div>
+        <div><dt>Instagram</dt><dd><a href="#">@emmawoodhouse.photo</a></dd></div>
+        <div><dt>Replies</dt><dd>Within two business days</dd></div>
+      </dl>
+    </div>
+    <figure class="mirror">
+      <div class="ph" role="img" aria-label="A couple kisses on a stone terrace framed by white flowers" style="background-image:url(../assets/mirror-couple.jpg)"></div>
+      <img src="../assets/gold-mirror-frame.webp" alt="">
+      <figcaption class="script">say hello</figcaption>
+    </figure>
+  </section>
+
+  <!-- 2 · inquiry letter -->
+  <section class="inq wrap" id="inquire">
+    <div class="side">
+      <span class="mono ov">What happens next</span>
+      <h2 class="caps">Three small <i class="s">steps</i></h2>
+      <div class="ledger">
+        <div class="r"><span class="t"><b>01</b>A reply</span><span class="script">within two days</span><p>My availability, the investment guide and a few questions about your day.</p></div>
+        <div class="r"><span class="t"><b>02</b>Coffee</span><span class="script">or a video call</span><p>A relaxed hour to hear your plans and see if we’re the right fit.</p></div>
+        <div class="r"><span class="t"><b>03</b>Your date</span><span class="script">officially yours</span><p>A contract and a 30% retainer, and you’re a Woodhouse couple.</p></div>
+      </div>
+    </div>
+    <div class="letter">
+      <img class="tp" src="../assets/tape-long.png" alt="" aria-hidden="true">
+      <span class="mono date" id="today"></span>
+      <form class="form" id="inquiry" novalidate>
+        <span class="script dear full" aria-hidden="true">Dear Emma,</span>
+        <div class="fld"><label for="f-names">Your names <b>*</b></label><input id="f-names" name="names" autocomplete="name" placeholder="Jane &amp; Robert" required><span class="err" aria-live="polite"></span></div>
+        <div class="fld"><label for="f-email">Email <b>*</b></label><input id="f-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required><span class="err" aria-live="polite"></span></div>
+        <div class="fld"><label for="f-date">Wedding date</label><input id="f-date" name="date" placeholder="June 12, 2027 or “autumn”"></div>
+        <div class="fld"><label for="f-place">Venue or location</label><input id="f-place" name="place" placeholder="Laguna Gloria, Austin"></div>
+        <fieldset class="fld full"><legend>I’m dreaming of <b>*</b></legend><div class="chips"><label><input type="radio" name="interest" value="weddings" required><span>Wedding</span></label><label><input type="radio" name="interest" value="elopements"><span>Elopement</span></label><label><input type="radio" name="interest" value="destinations"><span>Destination</span></label><label><input type="radio" name="interest" value="events"><span>Event</span></label><label><input type="radio" name="interest" value="mentorship"><span>Mentorship</span></label></div><span class="err" aria-live="polite"></span></fieldset>
+        <div class="fld"><label for="f-guests">Guest count</label><select id="f-guests" name="guests"><option value="">Choose one</option><option>Just the two of us</option><option>Under 50</option><option>50 to 120</option><option>120 to 200</option><option>200+</option></select></div>
+        <div class="fld"><label for="f-budget">Photography budget</label><select id="f-budget" name="budget"><option value="">Choose one</option><option>Under $4,000</option><option>$4,000 to $7,000</option><option>$7,000 to $10,000</option><option>$10,000+</option><option>Not sure yet</option></select></div>
+        <div class="fld full"><label for="f-story">Tell me your story <b>*</b></label><textarea id="f-story" name="story" placeholder="How you met, what matters most about the day, the moments you can’t wait for…" required></textarea><span class="err" aria-live="polite"></span></div>
+        <div class="fld full"><label for="f-heard">How did you find me?</label><input id="f-heard" name="heard" placeholder="A friend, Instagram, our planner…"></div>
+        <div class="signoff"><p class="script" aria-hidden="true">With love,<span id="sig">the two of us</span></p><button class="send" type="submit">Send my letter <span aria-hidden="true">→</span></button></div>
+        <p class="note">Your details stay between us. I’ll never add you to a list without asking.</p>
+      </form>
+      <div class="thanks" id="thanks" hidden tabindex="-1">
+        <span class="script">thank you</span>
+        <h3>Your letter is <i class="s">on its</i> way</h3>
+        <p>I’ll be in touch within two business days. In the meantime, the journal is full of real weddings and planning notes.</p>
+        <a class="tlink" href="blog.html">Visit the journal <span>→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3 · questions -->
+  <section class="faq wrap">
+    <div class="intro">
+      <span class="mono ov">Before you write</span>
+      <h2 class="caps">Questions, <i class="s">answered</i></h2>
+      <p>A few of the things couples ask most. Anything else, just put it in your letter.</p>
+    </div>
+    <div class="acc">
+        <details><summary><b>01</b>How far in advance should we book?<svg viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></summary><div class="body"><p>Most couples reach out 12 to 18 months before their wedding. Weekday dates, elopements and winter weddings often have availability closer in, so it’s always worth asking.</p></div></details>
+        <details><summary><b>02</b>Do you travel for weddings?<svg viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></summary><div class="body"><p>Always, happily. Travel within North America and Europe is included in the Destinations collection, and anywhere else is quoted on request.</p></div></details>
+        <details><summary><b>03</b>How many photographs will we receive?<svg viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></summary><div class="body"><p>For a full wedding day, usually 700 or more finished images, plus a roll of 35mm film. Every image is hand-edited; nothing is sent straight from the camera.</p></div></details>
+        <details><summary><b>04</b>When will our gallery arrive?<svg viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></summary><div class="body"><p>A sneak peek within a week, and your full online gallery within eight weeks. Albums are designed together and delivered about six weeks after you approve the layout.</p></div></details>
+        <details><summary><b>05</b>Do we need a second photographer?<svg viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></summary><div class="body"><p>For weddings over 100 guests I recommend one, and it’s included in the Weddings and Destinations collections, so both sides of the getting-ready are covered.</p></div></details>
+        <details><summary><b>06</b>How do we reserve our date?<svg viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></summary><div class="body"><p>A signed contract and a 30% retainer. The remainder is split into payments that suit you, with the last one due a month before the wedding.</p></div></details>
+    </div>
+  </section>
+
+  <!-- 4 · instagram -->
+  <section class="insta wrap" aria-label="Instagram">
+    <div class="head mono"><span>Follow along</span><a href="#">@emmawoodhouse.photo</a></div>
+    <div class="grams"><a href="#" aria-label="Instagram post"><div class="ph" style="background-image:url(../assets/film-veil-beach.jpg)"></div></a><a href="#" aria-label="Instagram post"><div class="ph bw" style="background-image:url(../assets/journal-bouquet-kiss.jpg)"></div></a><a href="#" aria-label="Instagram post"><div class="ph" style="background-image:url(../assets/polaroid-06.jpg)"></div></a><a href="#" aria-label="Instagram post"><div class="ph bw" style="background-image:url(../assets/film-running.jpg)"></div></a><a href="#" aria-label="Instagram post"><div class="ph" style="background-image:url(../assets/story-veil.jpg)"></div></a><a href="#" aria-label="Instagram post"><div class="ph bw" style="background-image:url(../assets/journal-garden-window.jpg)"></div></a></div>
+  </section>
+
+  <footer class="foot">
+    <div class="foot-top">
+      <ul><li><a href="about.html">About</a></li><li><a href="services.html">Services</a></li><li><a href="process.html">Our Process</a></li><li><a href="services.html#collections">Pricing</a></li></ul>
+      <div class="foot-logo"><span class="logo">Woodhouse</span><span class="mono">Wedding Photographer</span></div>
+      <ul><li><a href="gallery.html">Gallery</a></li><li><a href="resources.html">Resources</a></li><li><a href="mentorship.html">Mentorship</a></li><li><a href="contact.html">Contact</a></li></ul>
+    </div>
+    <div class="foot-bot mono"><span>© Woodhouse Photography</span><span class="row">01 — Always, Forever — 04</span><span>Austin, TX</span></div>
+  </footer>
+</div>
+<script>
+(()=>{const btns=document.querySelectorAll('.review button');
+const set=m=>{document.body.classList.toggle('as-mobile',m==='mobile');btns.forEach(b=>b.setAttribute('aria-pressed',b.dataset.view===m));try{localStorage.setItem('wh-view',m)}catch(e){}};
+btns.forEach(b=>b.addEventListener('click',()=>{set(b.dataset.view);window.scrollTo({top:0})}));
+let saved='desktop';try{saved=localStorage.getItem('wh-view')||'desktop'}catch(e){}
+if(window.innerWidth<700)saved='desktop';set(saved);
+document.querySelectorAll('[data-menu]').forEach(t=>t.addEventListener('click',()=>{const n=t.closest('.wh').querySelector('.menu');const o=n.hidden;n.hidden=!o;t.setAttribute('aria-expanded',o)}));
+(()=>{const f=document.getElementById('inquiry');if(!f)return;
+const d=document.getElementById('today');try{d.textContent=new Date().toLocaleDateString('en-US',{month:'short',day:'2-digit',year:'numeric'})}catch(e){}
+const sig=document.getElementById('sig'),nm=document.getElementById('f-names');nm.addEventListener('input',()=>{sig.textContent=nm.value.trim()||'the two of us'});
+try{const q=new URLSearchParams(location.search).get('interest');const r=q&&f.querySelector('input[name=interest][value="'+q+'"]');if(r)r.checked=true}catch(e){}
+const msg={names:'Please add your names.',email:'Please add an email I can reply to.',story:'A sentence or two is plenty.',interest:'Choose the one that fits best.'};
+const check=el=>{const box=el.closest('.fld'),err=box.querySelector('.err');let ok;
+ if(el.type==='radio'){ok=!!f.querySelector('input[name=interest]:checked')}else{ok=el.checkValidity()&&el.value.trim()!==''}
+ box.classList.toggle('bad',!ok);if(err)err.textContent=ok?'':(el.type==='email'&&el.value?'That email looks incomplete.':msg[el.name]);
+ el.setAttribute('aria-invalid',!ok);return ok};
+f.querySelectorAll('[required]').forEach(el=>el.addEventListener(el.type==='radio'?'change':'blur',()=>{if(el.type==='radio'||el.value)check(el)}));
+f.querySelectorAll('input[name=interest]').forEach(r=>r.addEventListener('change',()=>check(r)));
+f.addEventListener('submit',e=>{e.preventDefault();const req=[...f.querySelectorAll('[required]')];let first=null;
+ req.forEach(el=>{if(!check(el)&&!first)first=el});
+ if(first){first.focus();return}
+ f.hidden=true;const t=document.getElementById('thanks');t.hidden=false;t.focus();t.scrollIntoView({block:'center'})});})();})();
+</script>
+</body></html>

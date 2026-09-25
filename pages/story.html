@@ -1,0 +1,424 @@
+<!doctype html><html lang="en"><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style>
+<title>Olivia &amp; Henry · Woodhouse</title>
+<style>
+@font-face{font-family:"IvyPresto Display";src:url(../fonts/ivypresto-light.woff) format("woff");font-weight:300;font-style:normal;font-display:swap}
+@font-face{font-family:"IvyPresto Display";src:url(../fonts/ivypresto-light-italic.woff) format("woff");font-weight:300;font-style:italic;font-display:swap}
+@font-face{font-family:"IvyPresto Display";src:url(../fonts/ivypresto-regular.woff) format("woff");font-weight:400 500;font-style:normal;font-display:swap}
+@font-face{font-family:"IvyPresto Display";src:url(../fonts/ivypresto-italic.woff) format("woff");font-weight:400 500;font-style:italic;font-display:swap}
+@font-face{font-family:"Thesignature";src:url(../fonts/thesignature.woff) format("woff");font-display:swap}
+@font-face{font-family:"Fino Sans";src:url(../fonts/fino-sans.woff) format("woff");font-display:swap}
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=DM+Mono:wght@300;400&family=Inter:wght@300;400;500&family=Mrs+Saint+Delafield&family=Nothing+You+Could+Do&family=Tenor+Sans&display=swap">
+<style>
+:root{
+  --font-heading:"IvyPresto Display","Cormorant Garamond",Georgia,serif;
+  --font-script:"Thesignature","Mrs Saint Delafield","Snell Roundhand",cursive;
+  --font-logo:"Fino Sans","Tenor Sans","Helvetica Neue",Arial,sans-serif;
+  --font-body:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --font-mono:"DM Mono",ui-monospace,Menlo,monospace;
+  --font-hand:"Nothing You Could Do","Bradley Hand",cursive;
+  --grain:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .55 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+img{max-width:100%;display:block}
+figure{margin:0}
+[hidden]{display:none!important}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:1.5px solid currentColor;outline-offset:4px}
+h1,h2,h3,h4{font-family:var(--font-heading);font-weight:300;line-height:.98;margin:0;text-wrap:balance;letter-spacing:-.01em}
+p{margin:0}
+.wh{container:page/inline-size;max-width:1600px;margin-inline:auto;overflow:clip;position:relative}
+body.as-mobile .wh{max-width:390px;margin-block:72px 48px;border-radius:34px;box-shadow:0 0 0 10px #151514,0 40px 80px -30px rgba(0,0,0,.45)}
+.mono{font:400 11px/1.5 var(--font-mono);letter-spacing:.2em;text-transform:uppercase}
+.script{font-family:var(--font-script);font-weight:400;letter-spacing:0;line-height:1;text-transform:none}
+.logo{font-family:var(--font-logo);letter-spacing:.38em;text-transform:uppercase}
+.tlink{display:inline-flex;gap:.8em;align-items:center;font:400 11px/1 var(--font-mono);letter-spacing:.22em;text-transform:uppercase;padding-bottom:.7em;border-bottom:1px solid currentColor;transition:gap .3s}
+.tlink:hover{gap:1.4em}
+.ph{position:relative;overflow:hidden;background-color:#8a847b;background-size:cover;background-position:center;background-repeat:no-repeat}
+.ph.bw{filter:grayscale(1)}
+.ph::before{content:"";position:absolute;inset:0;background:var(--grain);opacity:.28;mix-blend-mode:overlay;pointer-events:none}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.review{position:fixed;z-index:50;top:calc(12px + env(safe-area-inset-top,0px));right:12px;display:flex;align-items:center;gap:4px;padding:4px 4px 4px 14px;background:rgba(20,20,19,.88);color:#f4f4f3;border-radius:999px;font:400 10px/1 var(--font-mono);letter-spacing:.16em;text-transform:uppercase;backdrop-filter:blur(8px)}
+.review span{padding-right:8px;opacity:.7}
+.review button{all:unset;cursor:pointer;padding:9px 12px;border-radius:999px}
+.review button[aria-pressed="true"]{background:#f4f4f3;color:#141413}
+.review button:focus-visible{outline:1px solid #f4f4f3}
+@media (max-width:600px){.review span{display:none}.review{right:8px}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
+<style>
+/* ── Woodhouse 2.0 · shared (from pages/home.html) ── */
+.G{--white:#ffffff;--esp:#0b0b0a;--paper:#f4f4f3;--paper-2:#ebebe9;--card:#ffffff;--ink:#1c1b19;--muted:#6b665f;--taupe:#dcdcda;--camel:#8a8782;--line:rgba(28,27,25,.16);
+  --inset:clamp(16px,2.85cqi,41px);--pad:clamp(20px,5cqi,88px);
+  background:var(--white);color:var(--ink);font:300 16px/1.7 var(--font-body)}
+body{background:#d6d6d4;margin:0}
+.review{top:auto;bottom:calc(14px + env(safe-area-inset-bottom,0px))}
+.G .wrap{padding-inline:var(--pad)}
+.G .ov{color:var(--muted);display:block}
+.G .card{background:var(--card)}
+.G h1 em,.G h2 em,.G h3 em{font-style:italic;text-transform:none}
+.G .caps{text-transform:uppercase}
+.G .caps .s{font-family:var(--font-script);text-transform:none;letter-spacing:0;font-size:1.12em;line-height:0;display:inline-block;transform:translateY(-.06em) rotate(-4deg);padding-inline:.1em;font-style:normal}
+.G .tp{height:auto;pointer-events:none}
+
+/* nav */
+.G .nav{position:sticky;top:0;z-index:20;height:60px;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;padding-inline:var(--inset);background:var(--white)}
+.G .nav-l{display:flex;align-items:center;gap:32px}
+.G .burger{all:unset;cursor:pointer;width:22px;height:12px;display:grid;align-content:space-between}
+.G .burger i{display:block;height:1px;background:var(--ink)}
+.G .nav-l ul{display:flex;gap:28px;list-style:none;margin:0;padding:0}
+.G .nav a.l{font:400 11px/1 var(--font-mono);letter-spacing:.15em;text-transform:uppercase}
+.G .nav a.l:hover{color:var(--muted)}
+.G .nav a.l[aria-current]{padding-bottom:4px;border-bottom:1px solid currentColor}
+.G .nav .logo{font-size:24px;letter-spacing:.02em}
+.G .social{display:flex;justify-content:flex-end;gap:22px}
+.G .social svg{width:15px;height:15px;fill:var(--ink)}
+.G .menu{padding:20px var(--inset) 28px;display:grid;gap:10px;font:300 30px/1.1 var(--font-heading);border-bottom:1px solid var(--line)}
+
+/* proof prints (from the homepage proof strip) */
+.G .proof{position:relative;display:grid;gap:12px;background:#ffffff;padding:10px 10px 14px;color:var(--ink)}
+.G .proof .tp{position:absolute;top:-18px;left:50%;width:46%;translate:-50% 0;z-index:2}
+.G .proof:nth-child(1) .tp{rotate:-4deg}.G .proof:nth-child(2) .tp{rotate:3deg}.G .proof:nth-child(3) .tp{rotate:-2deg}
+.G .proof .ph{aspect-ratio:4/5}
+.G .proof figcaption{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.G .proof figcaption i{font:italic 300 17px/1 var(--font-heading)}
+.G .proof figcaption .mono{font-size:9px;color:var(--muted)}
+
+/* ruled ledger (from "What sets our days apart") */
+.G .ledger .r{display:grid;grid-template-columns:clamp(130px,12cqi,180px) 1fr;gap:2px 28px;padding-block:16px;border-top:1px solid var(--line);position:relative}
+.G .ledger .r:last-child{border-bottom:1px solid var(--line)}
+.G .ledger .r::after{content:"";position:absolute;left:calc(clamp(130px,12cqi,180px) + 13px);top:0;bottom:0;width:1px;background:var(--line)}
+.G .ledger .t{font:400 11px/1.6 var(--font-mono);letter-spacing:.08em;text-transform:uppercase;padding-top:7px}
+.G .ledger .t b{font-weight:400;color:var(--muted);margin-right:8px}
+.G .ledger .script{font-size:clamp(24px,2cqi,30px);line-height:1.15}
+.G .ledger p{grid-column:2;color:var(--muted);font-size:14px}
+
+/* cta */
+.G .cta{position:relative;min-height:clamp(560px,50cqi,780px);display:grid;place-items:center;text-align:center;overflow:hidden;background:var(--esp);color:#fff;padding-block:clamp(90px,9cqi,150px)}
+.G .cta>.ph{position:absolute;inset:0;filter:grayscale(1) brightness(.55)}
+.G .cta .in{position:relative;display:grid;justify-items:center;gap:22px;padding-inline:20px}
+.G .cta .in>.mono{color:rgba(255,255,255,.75)}
+.G .cta .script{font-size:clamp(40px,4cqi,64px);margin-bottom:-.35em;position:relative;z-index:1}
+.G .cta h2{font-size:clamp(52px,7.2cqi,116px);line-height:.9;letter-spacing:-.02em;text-transform:uppercase;max-width:9em}
+.G .cta h2 em{padding-right:.1em}
+.G .cta .tlink{margin-top:14px}
+.G .cta .corner{position:absolute;bottom:clamp(24px,3cqi,44px);color:rgba(255,255,255,.75)}
+.G .cta .cl{left:clamp(20px,3.9cqi,56px)}.G .cta .cr{right:clamp(20px,3.9cqi,56px)}
+
+/* footer */
+.G .foot{background:var(--esp);color:#e9e9e7;padding:clamp(60px,6cqi,96px) var(--pad) 36px;display:grid;gap:56px}
+.G .foot-top{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:30px}
+.G .foot-top ul{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+.G .foot-top ul:last-child{justify-items:end;text-align:right}
+.G .foot-top a{font:300 22px/1 var(--font-heading)}
+.G .foot-top a:hover{font-style:italic}
+.G .foot-logo{text-align:center;display:grid;gap:10px}
+.G .foot-logo .logo{font-size:clamp(28px,3.2cqi,46px);letter-spacing:.3em}
+.G .foot-logo .mono{font-size:9.5px;color:#8a8984}
+.G .foot-bot{display:flex;justify-content:space-between;align-items:center;color:#8a8984;border-top:1px solid rgba(233,233,231,.16);padding-top:24px}
+.G .foot-bot .row{letter-spacing:.3em}
+
+@supports (animation-timeline:view()){
+  .G .lift{animation:lift linear both;animation-timeline:view()}
+  @keyframes lift{from{translate:0 40px}to{translate:0 -40px}}
+}
+
+/* ── Gallery item (single story) ── */
+
+/* 1 · hero: inset photo, names set over it like the homepage hero */
+.G .st-hero{position:relative;margin-inline:var(--inset);height:clamp(560px,54cqi,860px);display:grid;place-items:end center;color:#fff;background:var(--ink);overflow:hidden}
+.G .st-hero>.ph{position:absolute;inset:0;background-position:center 35%}
+.G .st-hero::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(28,27,25,.62) 0%,rgba(28,27,25,.1) 50%,rgba(0,0,0,0) 70%)}
+.G .st-hero .title{position:relative;z-index:2;display:grid;justify-items:center;text-align:center;padding-bottom:clamp(70px,7cqi,120px)}
+.G .st-hero .intro{font-size:clamp(34px,3.4cqi,52px);margin-bottom:-.3em;position:relative;z-index:1}
+.G .st-hero h1{font-size:clamp(60px,8cqi,132px);line-height:.88;letter-spacing:-.02em;text-transform:uppercase}
+.G .st-hero h1 em{padding-inline:.06em}
+.G .st-hero .corner{position:absolute;z-index:2;bottom:clamp(24px,3cqi,44px);color:rgba(255,255,255,.8)}
+.G .st-hero .cl{left:clamp(20px,3.9cqi,56px)}.G .st-hero .cr{right:clamp(20px,3.9cqi,56px);text-align:right}
+.G .crumbs{display:flex;gap:10px;justify-content:center;padding-top:22px;font-size:10px;color:var(--muted)}
+.G .crumbs a:hover{color:var(--ink)}
+
+/* 2 · the story + the day at a glance */
+.G .tale{display:grid;grid-template-columns:1fr 1.35fr;gap:clamp(40px,7cqi,120px);align-items:start;padding-block:clamp(80px,8cqi,130px) clamp(100px,10cqi,160px)}
+.G .glance{position:sticky;top:100px}
+.G .glance dl{margin:22px 0 0}
+.G .glance div{display:grid;grid-template-columns:110px 1fr;gap:16px;padding-block:13px;border-top:1px solid var(--line)}
+.G .glance div:last-child{border-bottom:1px solid var(--line)}
+.G .glance dt{font:400 10px/1.9 var(--font-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.G .glance dd{margin:0;font:300 19px/1.3 var(--font-heading)}
+.G .tale h2{font-size:clamp(40px,4.4cqi,70px);line-height:.92;margin:16px 0 30px}
+.G .tale .copy p{color:var(--muted);font-size:16px;max-width:56ch}
+.G .tale .copy p+p{margin-top:18px}
+.G .tale blockquote{margin:clamp(40px,4cqi,56px) 0 0;padding-left:clamp(20px,2.4cqi,34px);border-left:1px solid var(--ink);font:400 clamp(21px,1.8cqi,27px)/1.55 var(--font-hand);max-width:30em}
+.G .tale cite{display:block;margin-top:14px;font:400 10px/1 var(--font-mono);letter-spacing:.2em;text-transform:uppercase;color:var(--muted);font-style:normal}
+
+/* 3 · chapters of photographs */
+.G .zoom{all:unset;display:block;width:100%;box-sizing:border-box;cursor:zoom-in;position:relative}
+.G .zoom .ph{display:block;width:100%;height:100%;transition:transform .6s cubic-bezier(.2,.7,.2,1)}
+.G .zoom:hover .ph{transform:scale(1.015)}
+.G .zoom:focus-visible{outline:1.5px solid var(--ink);outline-offset:4px}
+.G .chap{padding-block:clamp(70px,7cqi,120px)}
+.G .chap .hd{display:grid;grid-template-columns:auto 1fr auto;gap:24px;align-items:baseline;max-width:1240px;margin:0 auto clamp(40px,4cqi,64px);padding-bottom:18px;border-bottom:1px solid var(--line)}
+.G .chap .hd .mono{font-size:10.5px;color:var(--muted)}
+.G .chap h2{font-size:clamp(34px,3.6cqi,58px);line-height:.92}
+.G .chap .hd .script{font-size:clamp(26px,2.2cqi,34px);color:var(--muted)}
+.G .frame{max-width:1240px;margin-inline:auto}
+.G .duo{display:grid;grid-template-columns:1fr 1fr;gap:clamp(16px,3cqi,48px);align-items:start}
+.G .duo>.zoom{aspect-ratio:4/5}
+.G .duo>.zoom:nth-child(2){margin-top:clamp(60px,8cqi,130px)}
+.G .wide{aspect-ratio:16/9}
+.G .side{display:grid;grid-template-columns:1.35fr 1fr;gap:clamp(30px,5cqi,90px);align-items:center;margin-top:clamp(40px,5cqi,80px)}
+.G .side.rev{grid-template-columns:1fr 1.35fr}
+.G .side.rev>.zoom{order:2}
+.G .side>.zoom{aspect-ratio:4/5}
+.G .side .note{display:grid;gap:14px;max-width:34ch}
+.G .side .note .script{font-size:clamp(30px,2.6cqi,40px)}
+.G .side .note p{color:var(--muted);font-size:15px}
+.G .side .note .mono{font-size:10px;color:var(--muted)}
+.G .trio{background:var(--esp);padding-block:clamp(70px,7cqi,110px) clamp(90px,8cqi,130px);margin-top:clamp(50px,5cqi,80px)}
+.G .trio .row{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(16px,3cqi,44px);max-width:1080px;margin-inline:auto}
+.G .trio .proof:nth-child(2){transform:translateY(28px)}
+.G .trio .proof .zoom{aspect-ratio:4/5}
+.G .trio .head{display:flex;justify-content:space-between;max-width:1080px;margin:0 auto 36px;color:#8a8984}
+.G .end{position:relative;max-width:1240px;margin:clamp(40px,5cqi,80px) auto 0}
+.G .end .wide{aspect-ratio:16/8}
+.G .end figcaption{display:flex;justify-content:space-between;margin-top:14px;color:var(--muted)}
+.G .end figcaption i{font:italic 300 17px/1 var(--font-heading);color:var(--ink)}
+
+/* 4 · credits */
+.G .credits{background:var(--paper);padding-block:clamp(80px,8cqi,130px);display:grid;grid-template-columns:1fr 2fr;gap:clamp(40px,6cqi,110px);align-items:start}
+.G .credits h2{font-size:clamp(36px,3.6cqi,58px);line-height:.92;margin-top:16px}
+.G .credits ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;column-gap:clamp(24px,4cqi,60px)}
+.G .credits li{display:grid;grid-template-columns:120px 1fr;gap:14px;padding-block:14px;border-top:1px solid var(--line)}
+.G .credits li span{font:400 10px/1.9 var(--font-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.G .credits li b{font:300 19px/1.3 var(--font-heading)}
+
+/* 5 · previous / next story */
+.G .pn{display:grid;grid-template-columns:1fr auto 1fr;gap:clamp(20px,4cqi,60px);align-items:center;padding-block:clamp(70px,7cqi,110px)}
+.G .pn a.s{display:grid;grid-template-columns:110px 1fr;gap:20px;align-items:center}
+.G .pn a.s.nx{grid-template-columns:1fr 110px;text-align:right}
+.G .pn a.s.nx .ph{order:2}
+.G .pn .ph{aspect-ratio:4/5}
+.G .pn .mono{font-size:10px;color:var(--muted)}
+.G .pn b{display:block;font:300 clamp(24px,2.2cqi,34px)/1 var(--font-heading);text-transform:uppercase;margin-top:8px}
+.G .pn a.s:hover b{font-style:italic}
+.G .pn .all{font:400 10.5px/1 var(--font-mono);letter-spacing:.2em;text-transform:uppercase;border-bottom:1px solid currentColor;padding-bottom:6px}
+
+/* lightbox */
+.G dialog.lb{border:0;padding:0;margin:0;width:100%;max-width:none;height:100%;max-height:none;background:rgba(11,11,10,.96);color:#e9e9e7}
+.G dialog.lb::backdrop{background:rgba(11,11,10,.96)}
+.G .lb img{position:absolute;inset:64px 80px;width:calc(100% - 160px);height:calc(100% - 128px);object-fit:contain}
+.G .lb button{all:unset;cursor:pointer;position:absolute;font:400 11px/1 var(--font-mono);letter-spacing:.2em;text-transform:uppercase;padding:14px}
+.G .lb button:focus-visible{outline:1.5px solid #fff}
+.G .lb .x{top:14px;right:18px}
+.G .lb .pv{left:14px;top:50%;translate:0 -50%}
+.G .lb .nx{right:14px;top:50%;translate:0 -50%}
+.G .lb .count{position:absolute;left:0;right:0;bottom:22px;text-align:center;font-size:10px;color:#8a8984}
+
+/* mobile */
+@container page (max-width:760px){
+  .G .nav{grid-template-columns:auto 1fr auto;gap:12px}
+  .G .nav-l ul{display:none}
+  .G .nav .logo{font-size:19px;justify-self:center}
+  .G .social{gap:14px}
+  .G .st-hero{height:560px}
+  .G .st-hero h1{font-size:clamp(52px,15cqi,64px)}
+  .G .st-hero .corner{font-size:9.5px}
+  .G .tale{grid-template-columns:1fr;gap:50px}
+  .G .glance{position:static;order:2}
+  .G .chap .hd{grid-template-columns:1fr;gap:6px}
+  .G .duo{gap:12px}
+  .G .side,.G .side.rev{grid-template-columns:1fr;gap:26px}
+  .G .side.rev>.zoom{order:0}
+  .G .wide{aspect-ratio:4/3.4}
+  .G .trio .row{gap:10px}
+  .G .trio .proof{padding:6px 6px 8px}
+  .G .trio .proof figcaption .mono{display:none}
+  .G .trio .proof figcaption i{font-size:13px}
+  .G .end .wide{aspect-ratio:4/3.4}
+  .G .credits{grid-template-columns:1fr;gap:30px}
+  .G .credits ul{grid-template-columns:1fr}
+  .G .credits li{grid-template-columns:110px 1fr}
+  .G .pn{grid-template-columns:1fr;gap:34px}
+  .G .pn .all{justify-self:center;order:3}
+  .G .lb img{inset:60px 12px;width:calc(100% - 24px);height:calc(100% - 120px)}
+  .G .lb .pv,.G .lb .nx{top:auto;bottom:10px;translate:none}
+  .G .foot-top{grid-template-columns:1fr 1fr}
+  .G .foot-logo{grid-column:1/-1;grid-row:1}
+  .G .foot-bot{flex-direction:column;gap:14px}
+}
+</style>
+</head><body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="paperclip" viewBox="0 0 26 80"><path d="M8.5 22 V61 a4.5 4.5 0 0 0 9 0 V13 a7.5 7.5 0 0 0 -15 0 V64 a10.5 10.5 0 0 0 21 0 V25" fill="none" stroke="#a9a69f" stroke-width="2.2" stroke-linecap="round"/><path d="M8.5 22 V61 a4.5 4.5 0 0 0 9 0 V13 a7.5 7.5 0 0 0 -15 0 V64 a10.5 10.5 0 0 0 21 0 V25" fill="none" stroke="#e9e7e2" stroke-width=".7" stroke-linecap="round" transform="translate(-.6 -.6)"/></symbol>
+  </defs>
+</svg>
+
+<div class="review" role="group" aria-label="Preview size"><span>Woodhouse 2.0 · Story</span><button type="button" data-view="desktop">Desktop</button><button type="button" data-view="mobile">Mobile</button></div>
+
+<div class="wh G">
+  <!-- nav -->
+  <header class="nav">
+    <div class="nav-l">
+      <button class="burger" type="button" data-menu aria-expanded="false" aria-label="Menu"><i></i><i></i></button>
+      <ul><li><a class="l" href="about.html">About</a></li><li><a class="l" href="gallery.html" aria-current="page">Gallery</a></li><li><a class="l" href="blog.html">Blog</a></li></ul>
+    </div>
+    <a class="logo" href="home.html">Woodhouse</a>
+    <div class="social">
+      <a href="#" aria-label="Instagram"><svg viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a>
+      <a href="#" aria-label="Pinterest"><svg viewBox="0 0 496 512"><path d="M496 256c0 137-111 248-248 248-25.6 0-50.2-3.9-73.4-11.1 10.1-16.5 25.2-43.5 30.8-65 3-11.6 15.4-59 15.4-59 8.1 15.4 31.7 28.5 56.8 28.5 74.8 0 128.7-68.8 128.7-154.3 0-81.9-66.9-143.2-152.9-143.2-107 0-163.9 71.8-163.9 150.1 0 36.4 19.4 81.7 50.3 96.1 4.7 2.2 7.2 1.2 8.3-3.3.8-3.4 5-20.3 6.9-28.1.6-2.5.3-4.7-1.7-7.1-10.1-12.5-18.3-35.3-18.3-56.6 0-54.7 41.4-107.6 112-107.6 60.9 0 103.6 41.5 103.6 100.9 0 67.1-33.9 113.6-78 113.6-24.3 0-42.6-20.1-36.7-44.8 7-29.5 20.5-61.3 20.5-82.6 0-19-10.2-34.9-31.4-34.9-24.9 0-44.9 25.7-44.9 60.2 0 22 7.4 36.8 7.4 36.8s-24.5 103.8-29 123.2c-5 21.4-3 51.6-.9 71.2C65.4 450.9 0 361.1 0 256 0 119 111 8 248 8s248 111 248 248z"/></svg></a>
+      <a href="#" aria-label="Facebook"><svg viewBox="0 0 320 512"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg></a>
+    </div>
+  </header>
+  <nav class="menu" hidden><a href="about.html">About</a><a href="gallery.html">Gallery</a><a href="process.html">The Process</a><a href="services.html">Services</a><a href="blog.html">Blog</a><a href="contact.html"><em>Inquire</em></a></nav>
+
+  <!-- 1 · hero -->
+  <section class="st-hero">
+    <div class="ph" role="img" aria-label="Olivia and Henry beside a stone balustrade and a cypress tree" style="background-image:url(../assets/wonder/e408fefe4308aef3b1359eb299d5d0b604fc4be3ef1e7473ed0cbf084ee0ee07.jpg)"></div>
+    <div class="title">
+      <p class="script intro">a Tuscany vineyard celebration</p>
+      <h1>Olivia <em>&amp;</em> Henry</h1>
+    </div>
+    <p class="corner cl mono">Val d’Orcia, Tuscany</p>
+    <p class="corner cr mono">June 14, 2025</p>
+  </section>
+  <nav class="crumbs mono" aria-label="Breadcrumb"><a href="gallery.html">Gallery</a><span aria-hidden="true">/</span><a href="gallery.html">Destinations</a><span aria-hidden="true">/</span><span aria-current="page">Olivia &amp; Henry</span></nav>
+
+  <!-- 2 · the story -->
+  <section class="tale wrap">
+    <aside class="glance">
+      <span class="mono ov">The day at a glance</span>
+      <dl>
+        <div><dt>Date</dt><dd>June 14, 2025</dd></div>
+        <div><dt>Venue</dt><dd>A borgo in the Val d’Orcia</dd></div>
+        <div><dt>Guests</dt><dd>86, from six countries</dd></div>
+        <div><dt>Collection</dt><dd><a href="services.html#destinations">Destinations, Nº 02</a></dd></div>
+        <div><dt>Coverage</dt><dd>Two days, digital &amp; 35mm</dd></div>
+      </dl>
+    </aside>
+    <div class="copy">
+      <span class="mono ov">The story</span>
+      <h2 class="caps">A long lunch <i class="s">with</i> everyone they love</h2>
+      <p>Olivia and Henry met in a rare-books shop in London and spent their first date arguing, happily, about Jane Austen. When it came to the wedding, they wanted one thing: the feeling of a slow Sunday lunch that goes on until dark.</p>
+      <p>So we spent two days in the Tuscan hills. A welcome dinner under the olive trees, a morning of linen and quiet, a ceremony among white hydrangeas, and a long table on the terrace that no one wanted to leave.</p>
+      <blockquote>“We didn’t look at our phones once. Seeing the photographs was like being handed the whole weekend back, the parts we remembered and the parts we missed.”<cite>Olivia</cite></blockquote>
+    </div>
+  </section>
+
+  <!-- 3 · chapter i -->
+  <section class="chap wrap">
+    <div class="hd"><span class="mono">Chapter I</span><h2 class="caps">The <i class="s">quiet</i> morning</h2><span class="script">linen &amp; light</span></div>
+    <div class="frame duo">
+      <button class="zoom " type="button" data-full="../assets/wonder/8b86cd5b512e122dacf1a1822f7477683a6cc21abb9b0970993769abaa0f9b88.jpg" aria-label="View larger: Olivia in her veil, in black and white"><span class="ph bw" role="img" aria-label="Olivia in her veil, in black and white" style="background-image:url(../assets/wonder/8b86cd5b512e122dacf1a1822f7477683a6cc21abb9b0970993769abaa0f9b88.jpg)"></span></button>
+      <button class="zoom " type="button" data-full="../assets/wonder/5da141b127d349b5fa0e100d299fde71aa71f303763090a3da43c81514d4ce8b.jpg" aria-label="View larger: The couple walking through a box-hedge garden, seen through a window"><span class="ph" role="img" aria-label="The couple walking through a box-hedge garden, seen through a window" style="background-image:url(../assets/wonder/5da141b127d349b5fa0e100d299fde71aa71f303763090a3da43c81514d4ce8b.jpg)"></span></button>
+    </div>
+  </section>
+
+  <!-- 3 · chapter ii -->
+  <section class="chap wrap">
+    <div class="hd"><span class="mono">Chapter II</span><h2 class="caps">The <i class="s">ceremony</i></h2><span class="script">among the hydrangeas</span></div>
+    <div class="frame">
+      <button class="zoom wide" type="button" data-full="../assets/wonder/af5c9977c8ba913baf0aad046bdf819dbec3175b1328479f00cfb0752221a0cc.jpg" aria-label="View larger: Wooden chairs lined with white hydrangeas for the garden ceremony"><span class="ph" role="img" aria-label="Wooden chairs lined with white hydrangeas for the garden ceremony" style="background-image:url(../assets/wonder/af5c9977c8ba913baf0aad046bdf819dbec3175b1328479f00cfb0752221a0cc.jpg)"></span></button>
+      <div class="side">
+        <button class="zoom " type="button" data-full="../assets/wonder/dbe402b5902f8155435cb6d59e1cbfece18690537da19915791493a2f56fd4ef.jpg" aria-label="View larger: Olivia and Henry on the stone terrace with cypress trees behind"><span class="ph" role="img" aria-label="Olivia and Henry on the stone terrace with cypress trees behind" style="background-image:url(../assets/wonder/dbe402b5902f8155435cb6d59e1cbfece18690537da19915791493a2f56fd4ef.jpg)"></span></button>
+        <div class="note"><span class="script">just married</span><p>We slipped away for twenty minutes after the ceremony, while everyone found a glass of something cold. Those are the portraits they framed.</p><span class="mono">Portraits · 5:40 pm</span></div>
+      </div>
+      <div class="side rev">
+        <button class="zoom " type="button" data-full="../assets/mirror-couple.jpg" aria-label="View larger: A kiss on the terrace framed by white flowers and stone urns"><span class="ph" role="img" aria-label="A kiss on the terrace framed by white flowers and stone urns" style="background-image:url(../assets/mirror-couple.jpg)"></span></button>
+        <div class="note"><span class="script">golden hour</span><p>The light in the Val d’Orcia turns honey-coloured just before seven. We planned the whole timeline around it.</p><span class="mono">Golden hour · 7:10 pm</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3 · chapter iii -->
+  <section class="chap wrap" style="padding-bottom:0">
+    <div class="hd"><span class="mono">Chapter III</span><h2 class="caps">Long table, <i class="s">late</i> light</h2><span class="script">until dark</span></div>
+    <div class="frame">
+      <button class="zoom wide" type="button" data-full="../assets/wonder/df73ca9b99601165e523c3c4518047bcaaa1c981863deb8042dc2820cc308cc8.jpg" aria-label="View larger: The candlelit reception table on the villa terrace"><span class="ph" role="img" aria-label="The candlelit reception table on the villa terrace" style="background-image:url(../assets/wonder/df73ca9b99601165e523c3c4518047bcaaa1c981863deb8042dc2820cc308cc8.jpg)"></span></button>
+    </div>
+  </section>
+  <section class="trio wrap" aria-label="From the film roll">
+    <div class="head mono"><span>From the film roll</span><span>Portra 400 · 35mm</span></div>
+    <div class="row">
+      <figure class="proof"><img class="tp" src="../assets/tape-short-1.png" alt="" aria-hidden="true"><button class="zoom " type="button" data-full="../assets/polaroid-01.jpg" aria-label="View larger: The champagne tower being poured at sunset"><span class="ph bw" role="img" aria-label="The champagne tower being poured at sunset" style="background-image:url(../assets/polaroid-01.jpg)"></span></button><figcaption><i>(the tower)</i><span class="mono">Nº 31</span></figcaption></figure>
+      <figure class="proof"><img class="tp" src="../assets/tape-short-2.png" alt="" aria-hidden="true"><button class="zoom " type="button" data-full="../assets/wonder/1ca6b36a9d67a5ccfe95d6b785c6c0d06ea6767d12336c814edbe709c823ed84.jpg" aria-label="View larger: Guests raising their glasses"><span class="ph bw" role="img" aria-label="Guests raising their glasses" style="background-image:url(../assets/wonder/1ca6b36a9d67a5ccfe95d6b785c6c0d06ea6767d12336c814edbe709c823ed84.jpg)"></span></button><figcaption><i>(the toast)</i><span class="mono">Nº 32</span></figcaption></figure>
+      <figure class="proof"><img class="tp" src="../assets/tape-short-1.png" alt="" aria-hidden="true"><button class="zoom " type="button" data-full="../assets/journal-centrepieces.jpg" aria-label="View larger: Candlelit centrepieces of garden flowers"><span class="ph bw" role="img" aria-label="Candlelit centrepieces of garden flowers" style="background-image:url(../assets/journal-centrepieces.jpg)"></span></button><figcaption><i>(the tables)</i><span class="mono">Nº 33</span></figcaption></figure>
+    </div>
+  </section>
+  <section class="chap wrap" style="padding-top:0">
+    <figure class="end">
+      <button class="zoom wide" type="button" data-full="../assets/wonder/4366936cd2dceb7376c18aebacb3473ab9fe41a8b0fb247a0f9a807608b91ab2.jpg" aria-label="View larger: Olivia and Henry beside a vintage car in front of the villa"><span class="ph" role="img" aria-label="Olivia and Henry beside a vintage car in front of the villa" style="background-image:url(../assets/wonder/4366936cd2dceb7376c18aebacb3473ab9fe41a8b0fb247a0f9a807608b91ab2.jpg)"></span></button>
+      <figcaption><i>(the getaway)</i><span class="mono">Fin</span></figcaption>
+    </figure>
+  </section>
+
+  <!-- 4 · credits -->
+  <section class="credits wrap">
+    <div><span class="mono ov">With thanks to</span><h2 class="caps">The <i class="s">dream</i> team</h2></div>
+    <ul>
+      <li><span>Planning</span><b>Casa Rosa Events</b></li>
+      <li><span>Florals</span><b>Briar &amp; Rose</b></li>
+      <li><span>Gown</span><b>Atelier Margot</b></li>
+      <li><span>Suit</span><b>Hollis &amp; Grey</b></li>
+      <li><span>Hair &amp; makeup</span><b>Studio Lune</b></li>
+      <li><span>Stationery</span><b>Paper &amp; Ivy</b></li>
+      <li><span>Catering</span><b>Osteria del Borgo</b></li>
+      <li><span>Film lab</span><b>Silver Salt Lab</b></li>
+    </ul>
+  </section>
+
+  <!-- 5 · previous / next -->
+  <nav class="pn wrap" aria-label="More stories">
+    <a class="s" href="story.html"><div class="ph" style="background-image:url(../assets/wonder/045ddd7f5ac0b4063ee86ac8254966c89c11651a6b85c09952a5089c3d4a557c.jpg)"></div><div><span class="mono">← Previous story</span><b>Eleanor &amp; James</b></div></a>
+    <a class="all" href="gallery.html">All stories</a>
+    <a class="s nx" href="story.html"><div class="ph" style="background-image:url(../assets/wonder/f4409b2ac843a7a2ca7709a68c1a4b527946022a4a7f30320382128c34a78683.jpg)"></div><div><span class="mono">Next story →</span><b>Charlotte &amp; Oliver</b></div></a>
+  </nav>
+
+  <dialog class="lb" id="lb" aria-label="Photograph"><img alt=""><button class="x" type="button">Close ✕</button><button class="pv" type="button" aria-label="Previous photograph">←</button><button class="nx" type="button" aria-label="Next photograph">→</button><span class="count mono"></span></dialog>
+
+  <!-- cta -->
+  <section class="cta">
+    <div class="ph" style="background-image:url(../assets/cta-embrace.jpg)"></div>
+    <div class="in">
+      <span class="mono">Now booking 2027</span>
+      <p class="script">let’s make magic happen.</p>
+      <h2>Let’s start <em>your</em> chapter</h2>
+      <a class="tlink" href="contact.html">Reserve my date <span>→</span></a>
+    </div>
+    <p class="corner cl mono">Since 2016</p>
+    <p class="corner cr mono">Made in Austin, TX</p>
+  </section>
+
+  <footer class="foot">
+    <div class="foot-top">
+      <ul><li><a href="about.html">About</a></li><li><a href="services.html">Services</a></li><li><a href="process.html">Our Process</a></li><li><a href="services.html#collections">Pricing</a></li></ul>
+      <div class="foot-logo"><span class="logo">Woodhouse</span><span class="mono">Wedding Photographer</span></div>
+      <ul><li><a href="gallery.html">Gallery</a></li><li><a href="resources.html">Resources</a></li><li><a href="mentorship.html">Mentorship</a></li><li><a href="contact.html">Contact</a></li></ul>
+    </div>
+    <div class="foot-bot mono"><span>© Woodhouse Photography</span><span class="row">01 — Always, Forever — 04</span><span>Austin, TX</span></div>
+  </footer>
+</div>
+<script>
+(()=>{const btns=document.querySelectorAll('.review button');
+const set=m=>{document.body.classList.toggle('as-mobile',m==='mobile');btns.forEach(b=>b.setAttribute('aria-pressed',b.dataset.view===m));try{localStorage.setItem('wh-view',m)}catch(e){}};
+btns.forEach(b=>b.addEventListener('click',()=>{set(b.dataset.view);window.scrollTo({top:0})}));
+let saved='desktop';try{saved=localStorage.getItem('wh-view')||'desktop'}catch(e){}
+if(window.innerWidth<700)saved='desktop';set(saved);
+document.querySelectorAll('[data-menu]').forEach(t=>t.addEventListener('click',()=>{const n=t.closest('.wh').querySelector('.menu');const o=n.hidden;n.hidden=!o;t.setAttribute('aria-expanded',o)}));
+(()=>{const lb=document.getElementById('lb');if(!lb||!lb.showModal)return;const img=lb.querySelector('img'),cnt=lb.querySelector('.count');
+const shots=[...document.querySelectorAll('.zoom')];let i=0,from=null;
+const show=n=>{i=(n+shots.length)%shots.length;const s=shots[i];img.src=s.dataset.full;img.alt=s.querySelector('.ph').getAttribute('aria-label');cnt.textContent=(i+1)+' / '+shots.length};
+shots.forEach((s,n)=>s.addEventListener('click',()=>{from=s;show(n);lb.showModal()}));
+lb.querySelector('.x').addEventListener('click',()=>lb.close());
+lb.querySelector('.pv').addEventListener('click',()=>show(i-1));
+lb.querySelector('.nx').addEventListener('click',()=>show(i+1));
+lb.addEventListener('keydown',e=>{if(e.key==='ArrowLeft')show(i-1);if(e.key==='ArrowRight')show(i+1)});
+lb.addEventListener('click',e=>{if(e.target===lb)lb.close()});
+lb.addEventListener('close',()=>{if(from)from.focus()});})();})();
+</script>
+</body></html>
